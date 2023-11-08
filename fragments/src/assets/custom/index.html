@@ -1,0 +1,39 @@
+<div class="custom">
+    <div class="btn-group-item"
+         data-analytics-asset-type="custom"
+         data-analytics-asset-id="custom-button" 
+         data-analytics-asset-title="Custom Button" 
+         data-analytics-asset-action="download"
+         >
+   <a class="btn btn-sm btn-primary"
+      href="#"
+            onclick="customSentToAnalytics()"
+      >
+      Download
+   </a>
+</div>
+<script>
+    function customSentToAnalytics() {
+  alert("Custom asset event has been sent to Analytics Cloud: custom-button | Download");
+}
+</script>
+
+<div class="btn-group-item"
+         data-analytics-asset-type="custom"
+         data-analytics-asset-id="custom-button" 
+         data-analytics-asset-title="Custom Button" 
+         data-analytics-asset-action="viewed"
+         >
+   <a class="btn btn-sm btn-primary"
+      href="#"
+            onclick="customSentToAnalytics()"
+      >
+      Viewed
+   </a>
+</div>
+<script>
+    function customSentToAnalytics() {
+  alert("Custom asset event has been sent to Analytics Cloud: custom-button | Viewed");
+}
+</script>
+</div>
