@@ -1,4 +1,4 @@
-console.group('Blogs');
-console.log('fragmentElement', fragmentElement);
-console.log('configuration', configuration);
-console.groupEnd();
+var blogButton = fragmentElement.querySelector("#blog-button");
+blogButton.addEventListener('click', function(){
+	alert('Blog asset event has been sent to Analytics Cloud: blog-button | Viewed')
+});

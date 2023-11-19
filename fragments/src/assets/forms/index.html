@@ -1,13 +1,19 @@
-<div class="forms">
-    <div class="btn-group-item" data-analytics-asset-type="form" data-analytics-asset-id="form-button" data-analytics-asset-title="Form Button">
-  <a class="btn btn-sm btn-primary" href="#" onclick="formSentToAC()">
-    Form
-  </a>
+<div id="formbutton-viewed" class="btn-group-item"
+	data-analytics-asset-id="form-button"
+	data-analytics-asset-title="Form Button"
+	data-analytics-asset-type="form"
+	>
+	<a class="btn btn-sm btn-primary" href="#">
+		View
+	</a>
 </div>
 
-<script>
-    function formSentToAC() {
-  alert("Form Button event has been sent to Analytics Cloud");
-}
-</script>
+<div id="formbutton-submitted" class="btn-group-item"
+	data-analytics-asset-id="form-button"
+	data-analytics-asset-title="Form Button"
+	data-analytics-asset-type="form"
+	>
+	<button class="btn btn-sm btn-primary" href="#" type="submit">
+		Submit
+	</button>
 </div>
